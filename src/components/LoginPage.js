@@ -7,6 +7,7 @@ const LoginPage = () => {
   };
   return (
     <div>
+      <h1>Login to Firebase-React</h1>
       <button onClick={handleLogin}>Login</button>
     </div>
   );

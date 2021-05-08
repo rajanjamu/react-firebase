@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/FirebaseApp";
+import AppRouter from "./routers/AppRouter";
 import { auth } from "./vendors/firebase";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppRouter />
   </React.StrictMode>,
   document.getElementById("root")
 );
