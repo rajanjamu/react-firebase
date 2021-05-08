@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Getting Started with Firebase with React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Learnings
+
+### `Remove git from project`
+
+`rm -rf .git`
+
+### `Auto refresh the app on browser`
+
+add `FAST_REFRESH=true` to .env file
 
 ## Available Scripts
 
